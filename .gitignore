@@ -1,0 +1,22 @@
+# External source mirrors / cloned repos
+/external/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Local logs and temp files
+*.log
+/tmp/
+.cache/
+.cache-*/
+
+# Dependency/build caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.next/
+dist/
+build/
+coverage/
