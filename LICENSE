@@ -1,0 +1,19 @@
+Future KRDS Skill license and attribution
+
+This repository is a third-party Codex skill bundle and validation harness. It is not an official KRDS project.
+
+KRDS-related assets, component names, examples, and references are derived from or compared against:
+
+- KRDS official website: https://www.krds.go.kr
+- KRDS HTML Component Kit repository: https://github.com/KRDS-uiux/krds-uiux
+- KRDS copyright page: https://www.krds.go.kr/html/site/utility/utility_06.html
+
+The upstream krds-uiux package metadata declares license "ISC". The upstream README also states that the package follows the terms of the Korea Digital Government Design System (KRDS). Use KRDS assets and references according to the official KRDS terms and copyright guidance.
+
+Original code in this repository that is not copied from KRDS or another referenced project may be used under the ISC license, subject to the upstream KRDS terms for KRDS-derived materials.
+
+ISC License
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above attribution notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA, OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
