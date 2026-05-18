@@ -2,7 +2,7 @@
 
 [English](./README.md) | [한국어](./README.ko.md)
 
-![Version](https://img.shields.io/badge/version-0.1.0-333333?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.0.1-333333?style=flat-square)
 ![KRDS UIUX](https://img.shields.io/badge/KRDS_UIUX-v1.1.0-0057B8?style=flat-square)
 ![Components](https://img.shields.io/badge/components-74%2F74-0F7B3A?style=flat-square)
 ![Similarity](https://img.shields.io/badge/similarity-100%25-0F7B3A?style=flat-square)
