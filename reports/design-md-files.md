@@ -1,0 +1,122 @@
+# google-labs-code/design.md File Catalog
+
+- Root: `/Users/tonylee/solo/future-krds/external/design-md`
+- Total files: **115**
+
+## Files
+
+- `.agents/skills/agent-dx-cli-scale/SKILL.md`: Markdown documentation with structured headings and project guidance.
+- `.agents/skills/ink/SKILL.md`: Markdown documentation with structured headings and project guidance.
+- `.agents/skills/tdd/SKILL.md`: Markdown documentation with structured headings and project guidance.
+- `.agents/skills/typed-service-contracts/SKILL.md`: Markdown documentation with structured headings and project guidance.
+- `.github/workflows/test.yml`: YAML configuration for linting, pipelines, or specs.
+- `.gitignore`: Repository file supporting source code, assets, examples, or tooling.
+- `CONTRIBUTING.md`: Contributor workflow and contribution standards.
+- `LICENSE`: Repository license text and usage terms.
+- `README.md`: Project or module documentation and usage overview.
+- `bun.lock`: Lockfile pinning exact dependency versions for reproducible installs.
+- `docs/spec.md`: Markdown documentation with structured headings and project guidance.
+- `examples/atmospheric-glass/DESIGN.md`: Design system guidance and styling rules for generated output.
+- `examples/atmospheric-glass/README.md`: Project or module documentation and usage overview.
+- `examples/atmospheric-glass/design_tokens.json`: Structured configuration or data used by tooling or runtime.
+- `examples/atmospheric-glass/tailwind.config.js`: JavaScript source script, config, or runtime module.
+- `examples/paws-and-paths/DESIGN.md`: Design system guidance and styling rules for generated output.
+- `examples/paws-and-paths/README.md`: Project or module documentation and usage overview.
+- `examples/paws-and-paths/design_tokens.json`: Structured configuration or data used by tooling or runtime.
+- `examples/paws-and-paths/tailwind.config.js`: JavaScript source script, config, or runtime module.
+- `examples/totality-festival/DESIGN.md`: Design system guidance and styling rules for generated output.
+- `examples/totality-festival/README.md`: Project or module documentation and usage overview.
+- `examples/totality-festival/design_tokens.json`: Structured configuration or data used by tooling or runtime.
+- `examples/totality-festival/tailwind.config.js`: JavaScript source script, config, or runtime module.
+- `package.json`: Node package manifest defining scripts, dependencies, and metadata.
+- `packages/cli/.gitignore`: Repository file supporting source code, assets, examples, or tooling.
+- `packages/cli/package.json`: Node package manifest defining scripts, dependencies, and metadata.
+- `packages/cli/scripts/check-package.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/commands/diff.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/commands/diff.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/commands/export.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/commands/lint.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/commands/spec.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/commands/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/index.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/dtcg/conformance.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/dtcg/handler.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/dtcg/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/dtcg/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/fixer/handler.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/fixer/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/fixer/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/fixture.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/fixtures/ALPINE_OBSERVATORY.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/CARTOGRAPHERS_ATLAS.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/DESIGN-test.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/HERITAGE.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/MERIDIAN.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/NEO_ESOTERIC_MONUMENT.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/fixtures/NO_FRONTMATTER.md`: Markdown documentation with structured headings and project guidance.
+- `packages/cli/src/linter/fixtures/OUT_OF_ORDER.md`: Markdown documentation with structured headings and project guidance.
+- `packages/cli/src/linter/fixtures/TRACKS_OF_DC.md`: Markdown documentation for implementation, guidelines, or examples.
+- `packages/cli/src/linter/index.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/index.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/lint.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/handler.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/broken-ref.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/broken-ref.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/contrast-ratio.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/contrast-ratio.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/index.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/missing-primary.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/missing-primary.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/missing-sections.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/missing-sections.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/missing-typography.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/missing-typography.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/orphaned-tokens.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/orphaned-tokens.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/section-order.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/section-order.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/test-helpers.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/token-summary.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/token-summary.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/rules/types.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/linter/rules/types.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/runner.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/runner.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/linter/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/model/color-parser.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/model/handler.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/model/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/model/spec.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/model/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/parser/handler.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/parser/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/parser/spec.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/parser/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/spec-config.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/spec-config.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/spec-config.yaml`: YAML configuration for linting, pipelines, or specs.
+- `packages/cli/src/linter/spec-gen/compiler.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/spec-gen/compiler.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/spec-gen/generate.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/spec-gen/renderers.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/spec-gen/spec-helpers.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/spec-gen/spec-helpers.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/spec-gen/spec.mdx`: Repository file supporting source code, assets, examples, or tooling.
+- `packages/cli/src/linter/tailwind/handler.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/v4/fixture.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/tailwind/v4/handler.test.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/v4/handler.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/v4/serialize.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/linter/tailwind/v4/serialize.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/linter/tailwind/v4/spec.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/utils.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/src/version.test.ts`: TypeScript automated test file validating expected behavior.
+- `packages/cli/src/version.ts`: TypeScript source implementing CLI, utilities, or core logic.
+- `packages/cli/tsconfig.build.json`: Structured configuration or data used by tooling or runtime.
+- `packages/cli/tsconfig.json`: Structured configuration or data used by tooling or runtime.
+- `skills-lock.json`: Structured configuration or data used by tooling or runtime.
+- `tsconfig.base.json`: Structured configuration or data used by tooling or runtime.
+- `turbo.json`: Structured configuration or data used by tooling or runtime.
