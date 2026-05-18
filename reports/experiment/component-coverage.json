@@ -1,0 +1,302 @@
+{
+  "source": "assets/krds/html/code",
+  "total": 74,
+  "components": [
+    {
+      "file": "assets/krds/html/code/accordion.html",
+      "component": "accordion"
+    },
+    {
+      "file": "assets/krds/html/code/accordion_line.html",
+      "component": "accordion_line"
+    },
+    {
+      "file": "assets/krds/html/code/badge.html",
+      "component": "badge"
+    },
+    {
+      "file": "assets/krds/html/code/badge_number.html",
+      "component": "badge_number"
+    },
+    {
+      "file": "assets/krds/html/code/badge_size.html",
+      "component": "badge_size"
+    },
+    {
+      "file": "assets/krds/html/code/breadcrumb.html",
+      "component": "breadcrumb"
+    },
+    {
+      "file": "assets/krds/html/code/button.html",
+      "component": "button"
+    },
+    {
+      "file": "assets/krds/html/code/button_hierarchy.html",
+      "component": "button_hierarchy"
+    },
+    {
+      "file": "assets/krds/html/code/button_icon.html",
+      "component": "button_icon"
+    },
+    {
+      "file": "assets/krds/html/code/button_size.html",
+      "component": "button_size"
+    },
+    {
+      "file": "assets/krds/html/code/button_text.html",
+      "component": "button_text"
+    },
+    {
+      "file": "assets/krds/html/code/button_with_icon.html",
+      "component": "button_with_icon"
+    },
+    {
+      "file": "assets/krds/html/code/calendar.html",
+      "component": "calendar"
+    },
+    {
+      "file": "assets/krds/html/code/calendar_range.html",
+      "component": "calendar_range"
+    },
+    {
+      "file": "assets/krds/html/code/carousel.html",
+      "component": "carousel"
+    },
+    {
+      "file": "assets/krds/html/code/carousel_banner.html",
+      "component": "carousel_banner"
+    },
+    {
+      "file": "assets/krds/html/code/checkbox.html",
+      "component": "checkbox"
+    },
+    {
+      "file": "assets/krds/html/code/checkbox_chip.html",
+      "component": "checkbox_chip"
+    },
+    {
+      "file": "assets/krds/html/code/checkbox_size.html",
+      "component": "checkbox_size"
+    },
+    {
+      "file": "assets/krds/html/code/coach_mark.html",
+      "component": "coach_mark"
+    },
+    {
+      "file": "assets/krds/html/code/contextual_help.html",
+      "component": "contextual_help"
+    },
+    {
+      "file": "assets/krds/html/code/critical_alerts.html",
+      "component": "critical_alerts"
+    },
+    {
+      "file": "assets/krds/html/code/date_input.html",
+      "component": "date_input"
+    },
+    {
+      "file": "assets/krds/html/code/disclosure.html",
+      "component": "disclosure"
+    },
+    {
+      "file": "assets/krds/html/code/favicon.html",
+      "component": "favicon"
+    },
+    {
+      "file": "assets/krds/html/code/file_upload.html",
+      "component": "file_upload"
+    },
+    {
+      "file": "assets/krds/html/code/footer.html",
+      "component": "footer"
+    },
+    {
+      "file": "assets/krds/html/code/header.html",
+      "component": "header"
+    },
+    {
+      "file": "assets/krds/html/code/help_panel.html",
+      "component": "help_panel"
+    },
+    {
+      "file": "assets/krds/html/code/identifier.html",
+      "component": "identifier"
+    },
+    {
+      "file": "assets/krds/html/code/in_page_navigation.html",
+      "component": "in_page_navigation"
+    },
+    {
+      "file": "assets/krds/html/code/language_switcher.html",
+      "component": "language_switcher"
+    },
+    {
+      "file": "assets/krds/html/code/language_switcher_page.html",
+      "component": "language_switcher_page"
+    },
+    {
+      "file": "assets/krds/html/code/link.html",
+      "component": "link"
+    },
+    {
+      "file": "assets/krds/html/code/main_menu_mobile.html",
+      "component": "main_menu_mobile"
+    },
+    {
+      "file": "assets/krds/html/code/main_menu_pc.html",
+      "component": "main_menu_pc"
+    },
+    {
+      "file": "assets/krds/html/code/masthead.html",
+      "component": "masthead"
+    },
+    {
+      "file": "assets/krds/html/code/modal.html",
+      "component": "modal"
+    },
+    {
+      "file": "assets/krds/html/code/modal_sample.html",
+      "component": "modal_sample"
+    },
+    {
+      "file": "assets/krds/html/code/pagination.html",
+      "component": "pagination"
+    },
+    {
+      "file": "assets/krds/html/code/radio_button.html",
+      "component": "radio_button"
+    },
+    {
+      "file": "assets/krds/html/code/radio_chip.html",
+      "component": "radio_chip"
+    },
+    {
+      "file": "assets/krds/html/code/radio_size.html",
+      "component": "radio_size"
+    },
+    {
+      "file": "assets/krds/html/code/resize.html",
+      "component": "resize"
+    },
+    {
+      "file": "assets/krds/html/code/select.html",
+      "component": "select"
+    },
+    {
+      "file": "assets/krds/html/code/select_size.html",
+      "component": "select_size"
+    },
+    {
+      "file": "assets/krds/html/code/select_sorting.html",
+      "component": "select_sorting"
+    },
+    {
+      "file": "assets/krds/html/code/select_state.html",
+      "component": "select_state"
+    },
+    {
+      "file": "assets/krds/html/code/side_navigation.html",
+      "component": "side_navigation"
+    },
+    {
+      "file": "assets/krds/html/code/skip_link.html",
+      "component": "skip_link"
+    },
+    {
+      "file": "assets/krds/html/code/spinner.html",
+      "component": "spinner"
+    },
+    {
+      "file": "assets/krds/html/code/step_indicator.html",
+      "component": "step_indicator"
+    },
+    {
+      "file": "assets/krds/html/code/structured_list.html",
+      "component": "structured_list"
+    },
+    {
+      "file": "assets/krds/html/code/structured_list_table.html",
+      "component": "structured_list_table"
+    },
+    {
+      "file": "assets/krds/html/code/tab.html",
+      "component": "tab"
+    },
+    {
+      "file": "assets/krds/html/code/table.html",
+      "component": "table"
+    },
+    {
+      "file": "assets/krds/html/code/tag.html",
+      "component": "tag"
+    },
+    {
+      "file": "assets/krds/html/code/tag_link.html",
+      "component": "tag_link"
+    },
+    {
+      "file": "assets/krds/html/code/text_input.html",
+      "component": "text_input"
+    },
+    {
+      "file": "assets/krds/html/code/text_input_icon.html",
+      "component": "text_input_icon"
+    },
+    {
+      "file": "assets/krds/html/code/text_input_size.html",
+      "component": "text_input_size"
+    },
+    {
+      "file": "assets/krds/html/code/text_input_state.html",
+      "component": "text_input_state"
+    },
+    {
+      "file": "assets/krds/html/code/text_list.html",
+      "component": "text_list"
+    },
+    {
+      "file": "assets/krds/html/code/text_list_ordered.html",
+      "component": "text_list_ordered"
+    },
+    {
+      "file": "assets/krds/html/code/textarea.html",
+      "component": "textarea"
+    },
+    {
+      "file": "assets/krds/html/code/toggle_switch.html",
+      "component": "toggle_switch"
+    },
+    {
+      "file": "assets/krds/html/code/toggle_switch_size.html",
+      "component": "toggle_switch_size"
+    },
+    {
+      "file": "assets/krds/html/code/tooltip.html",
+      "component": "tooltip"
+    },
+    {
+      "file": "assets/krds/html/code/tooltip_box.html",
+      "component": "tooltip_box"
+    },
+    {
+      "file": "assets/krds/html/code/tooltip_vertical.html",
+      "component": "tooltip_vertical"
+    },
+    {
+      "file": "assets/krds/html/code/tts.html",
+      "component": "tts"
+    },
+    {
+      "file": "assets/krds/html/code/tts_icon.html",
+      "component": "tts_icon"
+    },
+    {
+      "file": "assets/krds/html/code/tts_size.html",
+      "component": "tts_size"
+    },
+    {
+      "file": "assets/krds/html/code/tutorial_panel.html",
+      "component": "tutorial_panel"
+    }
+  ]
+}
