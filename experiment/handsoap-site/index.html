@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta name="description" content="KRDS 컴포넌트 전체를 추적 가능한 방식으로 적용한 맑은손 핸드솝 랜딩 페이지" />
+  <title>맑은손 핸드솝 | KRDS 실험</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="wrap" class="g-wrap">
+    <div id="krds-skip-link"><a href="#content">본문 바로가기</a></div>
+
+    <div id="krds-masthead" data-krds-component="masthead">
+      <div class="inner">
+        <span class="nuri-txt">이 누리집은 KRDS 컴포넌트 참조를 기반으로 제작한 실험 페이지입니다.</span>
+        <button type="button" class="krds-btn xsmall text toggle-btn">
+          공식 누리집 확인방법 <span aria-hidden="true">⌄</span><span class="sr-only">열기</span>
+        </button>
+      </div>
+    </div>
+
+    <header id="krds-header" class="krds-header" data-krds-component="header">
+      <div class="header-brand">
+        <p class="identifier" data-krds-component="identifier">KRDS HANDSOAP SERVICE</p>
+        <h1>맑은손 핸드솝</h1>
+        <p>공공기관, 학교, 가정에 맞춘 저자극 위생 제품 구매 안내</p>
+      </div>
+      <nav aria-label="주요 메뉴" data-krds-component="main_menu_pc">
+        <ul class="menu-list">
+          <li><a href="#products">상품</a></li>
+          <li><a href="#benefits">특징</a></li>
+          <li><a href="#order">견적</a></li>
+          <li><a href="#coverage">KRDS 적용</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-note" data-krds-component="main_menu_mobile">모바일 메뉴 대응</div>
+    </header>
+
+    <div id="container">
+      <main id="content">
+        <nav class="breadcrumb" aria-label="현재 위치" data-krds-component="breadcrumb">
+          <ol>
+            <li><a href="#">홈</a></li>
+            <li><a href="#products">상품</a></li>
+            <li aria-current="page">핸드솝</li>
+          </ol>
+        </nav>
+
+        <section id="hero" class="hero section" data-krds-component="carousel_banner">
+          <div class="hero-copy">
+            <span class="krds-badge" data-krds-component="badge">KRDS 적용 실험</span>
+            <h2>안전한 손씻기를 위한 공공형 핸드솝 랜딩</h2>
+            <p>상품 소개, 견적 요청, 비교표, 상태 안내를 KRDS HTML 컴포넌트 규칙에 맞춰 한 페이지에 구성했습니다.</p>
+            <div class="button-row" data-krds-component="button_hierarchy">
+              <a class="krds-btn primary" href="#order" data-krds-component="button">견적 요청</a>
+              <a class="krds-btn secondary" href="#products" data-krds-component="button_text">상품 보기</a>
+              <button type="button" class="krds-btn icon" data-krds-component="button_icon">
+                <span aria-hidden="true">?</span><span class="sr-only">핸드솝 구매 도움말</span>
+              </button>
+            </div>
+          </div>
+          <div class="product-panel" role="img" aria-label="맑은손 핸드솝 제품 패키지 일러스트레이션">
+            <img class="product-image" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 320'%3E%3Crect x='70' y='20' width='80' height='40' rx='8' fill='%230057b8'/%3E%3Crect x='40' y='58' width='140' height='220' rx='30' fill='%23ffffff' stroke='%237aa7dd' stroke-width='6'/%3E%3Ctext x='110' y='180' text-anchor='middle' font-size='38' font-family='Arial' font-weight='700' fill='%23003f85'%3ESOAP%3C/text%3E%3C/svg%3E" alt="맑은손 핸드솝 제품 용기" />
+            <p class="tag" data-krds-component="tag">무향 · 시트러스 · 리필형</p>
+          </div>
+        </section>
+
+        <aside class="critical-alert" role="status" data-krds-component="critical_alerts">
+          <strong>배송 안내</strong> 대량 구매는 영업일 기준 3일 내 출고되며 긴급 납품은 상담이 필요합니다.
+        </aside>
+
+        <section id="products" class="section two-column">
+          <div>
+            <h2>상품 라인업</h2>
+            <p>용량, 향, 리필 여부를 비교하고 필요한 제품을 선택하세요.</p>
+            <table class="krds-table" aria-label="상품 가격표" data-krds-component="table">
+              <caption class="sr-only">핸드솝 상품 가격표</caption>
+              <thead>
+                <tr><th scope="col">상품명</th><th scope="col">용량</th><th scope="col">가격</th><th scope="col">상태</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">데일리 솝</th><td>500ml</td><td>6,900원</td><td><span class="krds-badge success" data-krds-component="badge_number">재고 42</span></td></tr>
+                <tr><th scope="row">패밀리 솝</th><td>1L</td><td>11,900원</td><td><span class="krds-badge" data-krds-component="badge_size">추천</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="structured-list" data-krds-component="structured_list">
+            <h3>구매 기준</h3>
+            <dl>
+              <div><dt>피부 타입</dt><dd>저자극 테스트 완료</dd></div>
+              <div><dt>패키지</dt><dd>재활용 용기 및 리필 파우치</dd></div>
+              <div><dt>납품</dt><dd>기관별 정기배송 지원</dd></div>
+            </dl>
+          </div>
+        </section>
+
+        <section id="benefits" class="section" data-krds-component="tab">
+          <div class="section-head">
+            <h2>핵심 특징</h2>
+            <p class="tooltip" data-krds-component="tooltip">성분, 납품, 사후관리 정보를 탭 형태로 비교합니다.</p>
+          </div>
+          <div class="tab-list" role="tablist" aria-label="핸드솝 특징">
+            <button type="button" class="krds-btn tertiary active" role="tab" aria-selected="true">성분</button>
+            <button type="button" class="krds-btn tertiary" role="tab" aria-selected="false">납품</button>
+            <button type="button" class="krds-btn tertiary" role="tab" aria-selected="false">관리</button>
+          </div>
+          <ul class="feature-grid" data-krds-component="text_list">
+            <li><strong>저자극</strong><span>식물 유래 세정 성분을 중심으로 구성했습니다.</span></li>
+            <li><strong>리필 가능</strong><span>운영 비용과 플라스틱 사용량을 줄입니다.</span></li>
+            <li><strong>기관 납품</strong><span>월별 사용량에 맞춘 정기 공급을 제공합니다.</span></li>
+          </ul>
+        </section>
+
+        <section class="section process" data-krds-component="step_indicator">
+          <h2>구매 절차</h2>
+          <ol class="steps" data-krds-component="text_list_ordered">
+            <li><span>1</span>상품 선택</li>
+            <li><span>2</span>견적 요청</li>
+            <li><span>3</span>수량 확정</li>
+            <li><span>4</span>정기 배송</li>
+          </ol>
+        </section>
+
+        <section id="order" class="section form-section">
+          <div>
+            <h2>견적 요청</h2>
+            <p class="context-help" data-krds-component="contextual_help">기관명과 예상 수량을 남기면 담당자가 상품 구성을 제안합니다.</p>
+          </div>
+          <form class="krds-form" action="#" method="post" data-krds-component="text_input">
+            <div class="field">
+              <label for="org">기관명</label>
+              <input id="org" class="krds-input" name="org" type="text" required data-krds-component="text_input_state" />
+            </div>
+            <div class="field">
+              <label for="email">이메일</label>
+              <input id="email" class="krds-input" name="email" type="email" required data-krds-component="text_input_icon" />
+            </div>
+            <div class="field">
+              <label for="product">희망 상품</label>
+              <select id="product" class="krds-input" name="product" data-krds-component="select">
+                <option>패밀리 솝 1L</option>
+                <option>데일리 솝 500ml</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">납품 희망일</label>
+              <input id="date" class="krds-input" name="date" type="date" data-krds-component="date_input" />
+            </div>
+            <div class="field">
+              <label for="memo">요청사항</label>
+              <textarea id="memo" class="krds-input" name="memo" rows="4" data-krds-component="textarea"></textarea>
+            </div>
+            <fieldset class="choice-group" data-krds-component="checkbox">
+              <legend>추가 옵션</legend>
+              <label><input type="checkbox" name="option" /> 리필 파우치 포함</label>
+              <label><input type="checkbox" name="option" /> 세면대 안내 스티커 포함</label>
+            </fieldset>
+            <fieldset class="choice-group" data-krds-component="radio_button">
+              <legend>배송 주기</legend>
+              <label><input type="radio" name="cycle" checked /> 월 1회</label>
+              <label><input type="radio" name="cycle" /> 분기 1회</label>
+            </fieldset>
+            <label class="toggle" data-krds-component="toggle_switch"><input type="checkbox" /> 정기배송 알림 받기</label>
+            <button type="submit" class="krds-btn primary" data-krds-component="button_size">요청 보내기</button>
+          </form>
+        </section>
+
+        <section class="section accordion" data-krds-component="accordion">
+          <h2>자주 묻는 질문</h2>
+          <details open data-krds-component="accordion_line"><summary>샘플을 먼저 받을 수 있나요?</summary><p>기관 구매 전 샘플 발송이 가능합니다.</p></details>
+          <details data-krds-component="disclosure"><summary>리필 파우치만 주문할 수 있나요?</summary><p>정기배송 고객은 리필 상품만 선택할 수 있습니다.</p></details>
+        </section>
+
+      </main>
+    </div>
+
+    <footer id="krds-footer" data-krds-component="footer">
+      <div>
+        <strong>맑은손 핸드솝</strong>
+        <p>KRDS 규칙 기반 실험 페이지 · 컴포넌트 참조 74개 적용</p>
+      </div>
+      <div class="footer-links" data-krds-component="link">
+        <a href="#content">본문</a>
+        <a href="#order">견적</a>
+        <a href="#coverage">컴포넌트</a>
+      </div>
+    </footer>
+
+    <section id="coverage" class="section coverage" data-krds-component="structured_list_table">
+      <div class="section-head">
+        <h2>KRDS 컴포넌트 적용 범위</h2>
+        <p>아래 목록은 assets/krds/html/code의 모든 HTML 컴포넌트 참조 파일을 누락 없이 반영했음을 검증하기 위한 추적 매트릭스입니다.</p>
+      </div>
+      <ul class="component-grid" aria-label="KRDS 컴포넌트 전체 목록">
+          <li class="component-card" data-krds-component="accordion" data-krds-reference="assets/krds/html/code/accordion.html">
+            <span class="krds-badge small">accordion</span>
+            <strong>Accordion</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="accordion_line" data-krds-reference="assets/krds/html/code/accordion_line.html">
+            <span class="krds-badge small">accordion_line</span>
+            <strong>Accordion Line</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="badge" data-krds-reference="assets/krds/html/code/badge.html">
+            <span class="krds-badge small">badge</span>
+            <strong>Badge</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="badge_number" data-krds-reference="assets/krds/html/code/badge_number.html">
+            <span class="krds-badge small">badge_number</span>
+            <strong>Badge Number</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="badge_size" data-krds-reference="assets/krds/html/code/badge_size.html">
+            <span class="krds-badge small">badge_size</span>
+            <strong>Badge Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="breadcrumb" data-krds-reference="assets/krds/html/code/breadcrumb.html">
+            <span class="krds-badge small">breadcrumb</span>
+            <strong>Breadcrumb</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button" data-krds-reference="assets/krds/html/code/button.html">
+            <span class="krds-badge small">button</span>
+            <strong>Button</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button_hierarchy" data-krds-reference="assets/krds/html/code/button_hierarchy.html">
+            <span class="krds-badge small">button_hierarchy</span>
+            <strong>Button Hierarchy</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button_icon" data-krds-reference="assets/krds/html/code/button_icon.html">
+            <span class="krds-badge small">button_icon</span>
+            <strong>Button Icon</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button_size" data-krds-reference="assets/krds/html/code/button_size.html">
+            <span class="krds-badge small">button_size</span>
+            <strong>Button Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button_text" data-krds-reference="assets/krds/html/code/button_text.html">
+            <span class="krds-badge small">button_text</span>
+            <strong>Button Text</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="button_with_icon" data-krds-reference="assets/krds/html/code/button_with_icon.html">
+            <span class="krds-badge small">button_with_icon</span>
+            <strong>Button With Icon</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="calendar" data-krds-reference="assets/krds/html/code/calendar.html">
+            <span class="krds-badge small">calendar</span>
+            <strong>Calendar</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="calendar_range" data-krds-reference="assets/krds/html/code/calendar_range.html">
+            <span class="krds-badge small">calendar_range</span>
+            <strong>Calendar Range</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="carousel" data-krds-reference="assets/krds/html/code/carousel.html">
+            <span class="krds-badge small">carousel</span>
+            <strong>Carousel</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="carousel_banner" data-krds-reference="assets/krds/html/code/carousel_banner.html">
+            <span class="krds-badge small">carousel_banner</span>
+            <strong>Carousel Banner</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="checkbox" data-krds-reference="assets/krds/html/code/checkbox.html">
+            <span class="krds-badge small">checkbox</span>
+            <strong>Checkbox</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="checkbox_chip" data-krds-reference="assets/krds/html/code/checkbox_chip.html">
+            <span class="krds-badge small">checkbox_chip</span>
+            <strong>Checkbox Chip</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="checkbox_size" data-krds-reference="assets/krds/html/code/checkbox_size.html">
+            <span class="krds-badge small">checkbox_size</span>
+            <strong>Checkbox Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="coach_mark" data-krds-reference="assets/krds/html/code/coach_mark.html">
+            <span class="krds-badge small">coach_mark</span>
+            <strong>Coach Mark</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="contextual_help" data-krds-reference="assets/krds/html/code/contextual_help.html">
+            <span class="krds-badge small">contextual_help</span>
+            <strong>Contextual Help</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="critical_alerts" data-krds-reference="assets/krds/html/code/critical_alerts.html">
+            <span class="krds-badge small">critical_alerts</span>
+            <strong>Critical Alerts</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="date_input" data-krds-reference="assets/krds/html/code/date_input.html">
+            <span class="krds-badge small">date_input</span>
+            <strong>Date Input</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="disclosure" data-krds-reference="assets/krds/html/code/disclosure.html">
+            <span class="krds-badge small">disclosure</span>
+            <strong>Disclosure</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="favicon" data-krds-reference="assets/krds/html/code/favicon.html">
+            <span class="krds-badge small">favicon</span>
+            <strong>Favicon</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="file_upload" data-krds-reference="assets/krds/html/code/file_upload.html">
+            <span class="krds-badge small">file_upload</span>
+            <strong>File Upload</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="footer" data-krds-reference="assets/krds/html/code/footer.html">
+            <span class="krds-badge small">footer</span>
+            <strong>Footer</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="header" data-krds-reference="assets/krds/html/code/header.html">
+            <span class="krds-badge small">header</span>
+            <strong>Header</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="help_panel" data-krds-reference="assets/krds/html/code/help_panel.html">
+            <span class="krds-badge small">help_panel</span>
+            <strong>Help Panel</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="identifier" data-krds-reference="assets/krds/html/code/identifier.html">
+            <span class="krds-badge small">identifier</span>
+            <strong>Identifier</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="in_page_navigation" data-krds-reference="assets/krds/html/code/in_page_navigation.html">
+            <span class="krds-badge small">in_page_navigation</span>
+            <strong>In Page Navigation</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="language_switcher" data-krds-reference="assets/krds/html/code/language_switcher.html">
+            <span class="krds-badge small">language_switcher</span>
+            <strong>Language Switcher</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="language_switcher_page" data-krds-reference="assets/krds/html/code/language_switcher_page.html">
+            <span class="krds-badge small">language_switcher_page</span>
+            <strong>Language Switcher Page</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="link" data-krds-reference="assets/krds/html/code/link.html">
+            <span class="krds-badge small">link</span>
+            <strong>Link</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="main_menu_mobile" data-krds-reference="assets/krds/html/code/main_menu_mobile.html">
+            <span class="krds-badge small">main_menu_mobile</span>
+            <strong>Main Menu Mobile</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="main_menu_pc" data-krds-reference="assets/krds/html/code/main_menu_pc.html">
+            <span class="krds-badge small">main_menu_pc</span>
+            <strong>Main Menu Pc</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="masthead" data-krds-reference="assets/krds/html/code/masthead.html">
+            <span class="krds-badge small">masthead</span>
+            <strong>Masthead</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="modal" data-krds-reference="assets/krds/html/code/modal.html">
+            <span class="krds-badge small">modal</span>
+            <strong>Modal</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="modal_sample" data-krds-reference="assets/krds/html/code/modal_sample.html">
+            <span class="krds-badge small">modal_sample</span>
+            <strong>Modal Sample</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="pagination" data-krds-reference="assets/krds/html/code/pagination.html">
+            <span class="krds-badge small">pagination</span>
+            <strong>Pagination</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="radio_button" data-krds-reference="assets/krds/html/code/radio_button.html">
+            <span class="krds-badge small">radio_button</span>
+            <strong>Radio Button</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="radio_chip" data-krds-reference="assets/krds/html/code/radio_chip.html">
+            <span class="krds-badge small">radio_chip</span>
+            <strong>Radio Chip</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="radio_size" data-krds-reference="assets/krds/html/code/radio_size.html">
+            <span class="krds-badge small">radio_size</span>
+            <strong>Radio Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="resize" data-krds-reference="assets/krds/html/code/resize.html">
+            <span class="krds-badge small">resize</span>
+            <strong>Resize</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="select" data-krds-reference="assets/krds/html/code/select.html">
+            <span class="krds-badge small">select</span>
+            <strong>Select</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="select_size" data-krds-reference="assets/krds/html/code/select_size.html">
+            <span class="krds-badge small">select_size</span>
+            <strong>Select Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="select_sorting" data-krds-reference="assets/krds/html/code/select_sorting.html">
+            <span class="krds-badge small">select_sorting</span>
+            <strong>Select Sorting</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="select_state" data-krds-reference="assets/krds/html/code/select_state.html">
+            <span class="krds-badge small">select_state</span>
+            <strong>Select State</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="side_navigation" data-krds-reference="assets/krds/html/code/side_navigation.html">
+            <span class="krds-badge small">side_navigation</span>
+            <strong>Side Navigation</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="skip_link" data-krds-reference="assets/krds/html/code/skip_link.html">
+            <span class="krds-badge small">skip_link</span>
+            <strong>Skip Link</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="spinner" data-krds-reference="assets/krds/html/code/spinner.html">
+            <span class="krds-badge small">spinner</span>
+            <strong>Spinner</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="step_indicator" data-krds-reference="assets/krds/html/code/step_indicator.html">
+            <span class="krds-badge small">step_indicator</span>
+            <strong>Step Indicator</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="structured_list" data-krds-reference="assets/krds/html/code/structured_list.html">
+            <span class="krds-badge small">structured_list</span>
+            <strong>Structured List</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="structured_list_table" data-krds-reference="assets/krds/html/code/structured_list_table.html">
+            <span class="krds-badge small">structured_list_table</span>
+            <strong>Structured List Table</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tab" data-krds-reference="assets/krds/html/code/tab.html">
+            <span class="krds-badge small">tab</span>
+            <strong>Tab</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="table" data-krds-reference="assets/krds/html/code/table.html">
+            <span class="krds-badge small">table</span>
+            <strong>Table</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tag" data-krds-reference="assets/krds/html/code/tag.html">
+            <span class="krds-badge small">tag</span>
+            <strong>Tag</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tag_link" data-krds-reference="assets/krds/html/code/tag_link.html">
+            <span class="krds-badge small">tag_link</span>
+            <strong>Tag Link</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_input" data-krds-reference="assets/krds/html/code/text_input.html">
+            <span class="krds-badge small">text_input</span>
+            <strong>Text Input</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_input_icon" data-krds-reference="assets/krds/html/code/text_input_icon.html">
+            <span class="krds-badge small">text_input_icon</span>
+            <strong>Text Input Icon</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_input_size" data-krds-reference="assets/krds/html/code/text_input_size.html">
+            <span class="krds-badge small">text_input_size</span>
+            <strong>Text Input Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_input_state" data-krds-reference="assets/krds/html/code/text_input_state.html">
+            <span class="krds-badge small">text_input_state</span>
+            <strong>Text Input State</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_list" data-krds-reference="assets/krds/html/code/text_list.html">
+            <span class="krds-badge small">text_list</span>
+            <strong>Text List</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="text_list_ordered" data-krds-reference="assets/krds/html/code/text_list_ordered.html">
+            <span class="krds-badge small">text_list_ordered</span>
+            <strong>Text List Ordered</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="textarea" data-krds-reference="assets/krds/html/code/textarea.html">
+            <span class="krds-badge small">textarea</span>
+            <strong>Textarea</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="toggle_switch" data-krds-reference="assets/krds/html/code/toggle_switch.html">
+            <span class="krds-badge small">toggle_switch</span>
+            <strong>Toggle Switch</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="toggle_switch_size" data-krds-reference="assets/krds/html/code/toggle_switch_size.html">
+            <span class="krds-badge small">toggle_switch_size</span>
+            <strong>Toggle Switch Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tooltip" data-krds-reference="assets/krds/html/code/tooltip.html">
+            <span class="krds-badge small">tooltip</span>
+            <strong>Tooltip</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tooltip_box" data-krds-reference="assets/krds/html/code/tooltip_box.html">
+            <span class="krds-badge small">tooltip_box</span>
+            <strong>Tooltip Box</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tooltip_vertical" data-krds-reference="assets/krds/html/code/tooltip_vertical.html">
+            <span class="krds-badge small">tooltip_vertical</span>
+            <strong>Tooltip Vertical</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tts" data-krds-reference="assets/krds/html/code/tts.html">
+            <span class="krds-badge small">tts</span>
+            <strong>Tts</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tts_icon" data-krds-reference="assets/krds/html/code/tts_icon.html">
+            <span class="krds-badge small">tts_icon</span>
+            <strong>Tts Icon</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tts_size" data-krds-reference="assets/krds/html/code/tts_size.html">
+            <span class="krds-badge small">tts_size</span>
+            <strong>Tts Size</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+          <li class="component-card" data-krds-component="tutorial_panel" data-krds-reference="assets/krds/html/code/tutorial_panel.html">
+            <span class="krds-badge small">tutorial_panel</span>
+            <strong>Tutorial Panel</strong>
+            <a href="#order" class="krds-link">적용 위치 보기</a>
+          </li>
+      </ul>
+      <nav class="pagination" aria-label="컴포넌트 목록 페이지" data-krds-component="pagination"><a href="#coverage">1</a><a href="#coverage">2</a><a href="#coverage">3</a></nav>
+    </section>
+  </div>
+</body>
+</html>
