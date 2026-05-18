@@ -1,0 +1,13 @@
+{
+  "name": "krds-local-resource-bundle",
+  "source": "external/krds-uiux",
+  "mirrors": {
+    "assets": "assets/krds",
+    "references": "references/krds"
+  },
+  "reports": {
+    "krdsCatalog": "reports/krds-uiux-files.md",
+    "designMdCatalog": "reports/design-md-files.md",
+    "verifiers": "resources/krds/test-verifiers.md"
+  }
+}

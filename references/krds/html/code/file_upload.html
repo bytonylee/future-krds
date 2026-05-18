@@ -1,0 +1,83 @@
+<!-- file upload -->
+<div class="krds-file-upload line">
+	<!-- 파일 업로드 상단 -->
+	<div class="file-head">
+		<h3 class="tit">타이틀영역</h3>
+		<div>
+			<p>컨텐츠 영역</p>
+		</div>
+	</div>  
+	<!-- //파일 업로드 상단 -->
+
+	<!-- 파일 업로드 영역 -->
+	<div class="file-upload">
+		<p class="txt">첨부할 파일을 여기에 끌어다 놓거나, 파일 선택 버튼을 눌러 파일을 직접 선택해주세요.</p>
+		<div class="file-upload-btn-wrap">
+			<input type="file" name="myFile" id="fileu-upload" hidden>
+			<label for="fileu-upload">
+				<button type="button" class="krds-btn medium"><i class="svg-icon ico-upload"></i>파일선택</button>
+			</label>
+		</div>
+	</div>
+	<!-- //파일 업로드 영역 -->
+	<!-- 파일 리스트 영역 -->
+	<div class="file-list">
+		<div class="total"><span class="current">3개</span> / 10개</div>
+		<ul class="upload-list">
+			<li>
+				<div class="file-info">
+					<div class="file-name">위임장(주민등록법 시행령 별지 제15호의2호서식) [hwp, 17KB] </div>
+					<div class="btn-wrap">
+					<span class="krds-spinner" role="status">
+						<span class="sr-only">업로드 중</span>
+					</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="file-info">
+					<div class="file-name">위임장(주민등록법 시행령 별지 제15호의2호서식) [hwp, 17KB] </div>
+					<div class="btn-wrap">
+					<span class="ico-invalid complete">
+						<em class="sr-only">업로드 완료</em>
+					</span>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="file-info">
+					<div class="file-name">위임장(주민등록법 시행령 별지 제15호의2호서식) [hwp, 17KB] </div>
+					<div class="btn-wrap">
+						<button type="button" class="krds-btn medium text">삭제 <i class="svg-icon ico-delete-fill"></i></button>
+					</div>
+				</div>
+			</li>
+			<li class="is-error">
+				<div class="file-info">
+					<div class="file-name">전입재등록신고서 [주민등록법 시행령 : 별지서식 15, 15호의2호] [hwp, 17KB]</div>
+					<div class="btn-wrap">
+						<button type="button" class="krds-btn medium text">삭제 <i class="svg-icon ico-delete-fill"></i></button>
+					</div>
+				</div>
+				<p class="file-hint-invalid">
+					등록 가능한 파일 용량을 초과하였습니다.<br>
+					20MB 미만의 파일만 등록할 수 있습니다.
+				</p>
+			</li>
+			<li>
+				<div class="file-info m-column">
+					<div class="file-name">위임장(주민등록법 시행령 별지 제15호의2호서식) [hwp, 17KB] </div>
+					<div class="btn-wrap">
+						<button type="button" class="krds-btn medium text">다운로드 <i class="svg-icon ico-down"></i></button>
+						<button type="button" class="krds-btn medium text">바로보기 <i class="svg-icon ico-angle right"></i></button>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="upload-delete-btn">
+			<button type="button" class="krds-btn xsmall tertiary">전체 파일 삭제<i class="svg-icon ico-angle right"></i></button>
+		</div>
+	</div>
+	<!-- //파일 리스트 영역 -->
+</div>
+<!-- //file upload -->

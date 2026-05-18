@@ -1,0 +1,27 @@
+{
+  "requiredSelectors": [
+    "#krds-skip-link",
+    "#wrap.g-wrap",
+    "#krds-masthead",
+    "#krds-header",
+    "#container",
+    "#content",
+    "#krds-footer"
+  ],
+  "requiredClassPatterns": [
+    "krds-btn",
+    "krds-input",
+    "krds-form",
+    "krds-table",
+    "krds-badge",
+    "sr-only"
+  ],
+  "requiredLandmarks": ["header", "nav", "main", "footer"],
+  "requiredMeta": ["charset", "viewport", "description"],
+  "a11yRules": [
+    "skip-link-target-exists",
+    "form-input-has-label",
+    "icon-button-has-sr-only",
+    "image-has-alt"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "score": 100,
+  "threshold": 95,
+  "pass": true,
+  "summary": {
+    "totalChecks": 29,
+    "passed": 29,
+    "failed": []
+  },
+  "checks": [
+    {
+      "name": "doctype",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "lang-ko",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "meta-charset",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "name": "meta-viewport",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "name": "meta-description",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "name": "landmark-header",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "landmark-nav",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "landmark-main",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "landmark-footer",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "selector-#krds-skip-link",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#wrap.g-wrap",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#krds-masthead",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#krds-header",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#container",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#content",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "selector-#krds-footer",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "class-krds-btn",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "class-krds-input",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "class-krds-form",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "class-krds-table",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "class-krds-badge",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "class-sr-only",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "skip-link-target-exists",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "form-input-has-label",
+      "pass": true,
+      "weight": 3
+    },
+    {
+      "name": "icon-button-has-sr-only",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "image-has-alt",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "nav-aria-label",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "table-semantic",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "name": "krds-class-prefix-coverage>=0.10",
+      "pass": true,
+      "weight": 1
+    }
+  ],
+  "reference": {
+    "krdsPrefixedClassCount": 13,
+    "krdsPrefixedClassCoverage": 0.2308
+  }
+}
