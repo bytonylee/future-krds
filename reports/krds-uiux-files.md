@@ -1,0 +1,252 @@
+# KRDS UIUX File Catalog
+
+- Root: `/Users/tonylee/solo/future-krds/external/krds-uiux`
+- Total files: **245**
+
+## Files
+
+- `README.md`: Project or module documentation and usage overview.
+- `html/code/accordion.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/accordion_line.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/badge.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/badge_number.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/badge_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/breadcrumb.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button_hierarchy.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button_icon.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button_text.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/button_with_icon.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/calendar.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/calendar_range.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/carousel.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/carousel_banner.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/checkbox.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/checkbox_chip.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/checkbox_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/coach_mark.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/contextual_help.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/critical_alerts.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/date_input.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/disclosure.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/favicon.html`: Static HTML example or component markup reference.
+- `html/code/file_upload.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/footer.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/header.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/help_panel.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/identifier.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/in_page_navigation.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/language_switcher.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/language_switcher_page.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/link.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/main_menu_mobile.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/main_menu_pc.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/masthead.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/modal.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/modal_sample.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/pagination.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/radio_button.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/radio_chip.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/radio_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/resize.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/select.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/select_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/select_sorting.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/select_state.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/side_navigation.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/skip_link.html`: Static HTML example or component markup reference.
+- `html/code/spinner.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/step_indicator.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/structured_list.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/structured_list_table.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tab.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/table.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tag.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tag_link.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_input.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_input_icon.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_input_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_input_state.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_list.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/text_list_ordered.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/textarea.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/toggle_switch.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/toggle_switch_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tooltip.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tooltip_box.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tooltip_vertical.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tts.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tts_icon.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tts_size.html`: Static HTML component example demonstrating UI structure and states.
+- `html/code/tutorial_panel.html`: Static HTML component example demonstrating UI structure and states.
+- `package.json`: Node package manifest defining scripts, dependencies, and metadata.
+- `resources/cdn/krds.min.css`: Stylesheet defining component and layout styling.
+- `resources/cdn/krds.min.js`: JavaScript source script, config, or runtime module.
+- `resources/css/common/common.css`: Stylesheet defining component and layout styling.
+- `resources/css/common/common.css.map`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/css/component/component.css`: Stylesheet defining component and layout styling.
+- `resources/css/component/component.css.map`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/css/component/output.css`: Stylesheet defining component and layout styling.
+- `resources/css/component/output.css.map`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/css/plugin/swiper-bundle.min.css`: Stylesheet defining component and layout styling.
+- `resources/css/token/krds_tokens.css`: Stylesheet defining component and layout styling.
+- `resources/fonts/PretendardGOV-Bold.subset.woff`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/fonts/PretendardGOV-Bold.subset.woff2`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/fonts/PretendardGOV-Medium.subset.woff`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/fonts/PretendardGOV-Medium.subset.woff2`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/fonts/PretendardGOV-Regular.subset.woff`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/fonts/PretendardGOV-Regular.subset.woff2`: Repository file supporting source code, assets, examples, or tooling.
+- `resources/img/component/favicon/favicon-192x192.png`: Image asset used by documentation or UI examples.
+- `resources/img/component/favicon/favicon-32x32.png`: Image asset used by documentation or UI examples.
+- `resources/img/component/favicon/favicon-512x512.png`: Image asset used by documentation or UI examples.
+- `resources/img/component/favicon/favicon.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/head_ico_font_sample.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/head_ico_font_sample_white.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_all.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_angle.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_angle_disabled.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_angle_disabled_inverse.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_angle_inverse.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_arrow_dropdown.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_blog.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_bread_home.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_calendar.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_call.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_checkbox.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_checkbox_checked.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_close.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_complete_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_delete.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_delete_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_download.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_ellipsis.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_email.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_error_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_expand.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_facebook.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_faq.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_figma.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_html.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_hwp.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_pdf.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_sketch.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_file_xd.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_filter.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_flag.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_flow_arrow.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_foldable.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_global.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_go.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_go_top.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_help.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_help_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_information.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_information_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_information_fill_high_contrast.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_instagram.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_join.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_like.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_go.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_01.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_02.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_03.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_04.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_05.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_login_certify_type_06.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_logo_krds.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_logo_krds_high_contrast.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_logout.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_more.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_my.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_notice_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_notice_fill_blue.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_notice_fill_high_contrast.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_play.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_plus.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_print.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_pw_visible_off.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_pw_visible_on.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_reset.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_sch.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_sch_plus.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_scrap.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_setting.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_share.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_sns_x.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_step_done.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_stop.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_success_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_swiper_play.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_swiper_stop.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_switch_off.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_switch_on.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_tooltip.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_upload.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_urgent_badge_danger.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_urgent_badge_info.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_urgent_badge_ok.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_view_mode.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_volume.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_warning_fill.svg`: Vector asset used in UI or documentation.
+- `resources/img/component/icon/ico_youtube.svg`: Vector asset used in UI or documentation.
+- `resources/js/component/ui-script.js`: JavaScript source script, config, or runtime module.
+- `resources/js/plugin/swiper-bundle.min.js`: JavaScript source script, config, or runtime module.
+- `resources/scss/common/_dropdown.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_group_mixins.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_group_variables.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_icon.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_include.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_path.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_reset.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_root.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/_variables_for_code.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/common.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/mixins/_breakpoints.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/mixins/_icons.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/common/mixins/_utils.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_accordion.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_badge.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_breadcrumb.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_button.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_calendar.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_carousel.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_coach_mark.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_contextual_help.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_critical_alerts.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_disclosure.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_file_upload.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_footer.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_form_check.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_form_chip.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_form_layout.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_header.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_help_panel.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_identifier.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_in_page_navigation.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_input.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_language_switcher.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_main_menu.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_masthead.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_modal.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_pagination.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_resize.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_select.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_side_navigation.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_skip_link.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_spinner.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_step_indicator.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_structured_list.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_switch.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_tab.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_table.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_tag.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_text_list.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_tooltip.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/_tts.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/component.scss`: Stylesheet defining component and layout styling.
+- `resources/scss/component/output.scss`: Stylesheet defining component and layout styling.
+- `tokens/figma_token.json`: Structured configuration or data used by tooling or runtime.
+- `tokens/transformed_tokens.json`: Structured configuration or data used by tooling or runtime.
